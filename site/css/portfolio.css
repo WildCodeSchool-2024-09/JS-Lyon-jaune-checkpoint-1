@@ -120,14 +120,25 @@ p {
     justify-content: center;
     align-items: center;
   }
-
   .titreAvatar > img {
     width: 10rem;
+  }
+
+  .bothColumn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
   }
 }
 
 @media screen and (max-width: 700px) {
   .titreAvatar > img {
     display: none;
+  }
+
+  .bothColumn {
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
   }
 }
