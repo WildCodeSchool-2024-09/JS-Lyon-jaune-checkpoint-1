@@ -12,9 +12,9 @@ function isLeapYear(year) {
     (parseInt(year) % 4 === 0 && parseInt(year) % 100 !== 0) ||
     parseInt(year) % 400 === 0
   ) {
-    console.log("Cette année est bissextile");
+    return true;
   } else {
-    console.log("Cette année n'est pas bissextile");
+    return false;
   }
 }
 
