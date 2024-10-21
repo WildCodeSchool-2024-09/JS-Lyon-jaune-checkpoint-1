@@ -49,6 +49,21 @@
 		display: flex;
 		flex-direction: column-reverse;
 	}
+  #avatar-bis {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+}
+.fullbox {
+  display: flex;
+  text-align:center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects {
+  text-align: center;
+}
 }
 
 img {
