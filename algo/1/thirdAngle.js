@@ -9,8 +9,7 @@ thirdAngle(20, 80) doit retourner 80
 function thirdAngle(a, b) {
 	return 180 - a - b;
 }
-let sommeTriangle = thirdAngle(60, 90);
 
-console.log(sommeTriangle);
+console.log(thirdAngle(90, 60));
 
 module.exports = thirdAngle;
