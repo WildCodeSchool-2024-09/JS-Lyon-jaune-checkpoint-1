@@ -60,6 +60,11 @@ p {
   background-color: var(--lightWildColor);
 }
 
+.the-skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
 .skills {
   margin-top: calc(var(--gutter) * -2);
   border-radius: var(--radius);
@@ -118,5 +123,13 @@ p {
   color: var(--purple);
 }
 
-@media screen (max-width: 700px) {
+@media only screen and (max-width: 700px) {
+  .image-bureau {
+    display: none;
+  }
+
+  .the-skills {
+    display: flex;
+    flex-direction: column-reverse;
+  }
 }
