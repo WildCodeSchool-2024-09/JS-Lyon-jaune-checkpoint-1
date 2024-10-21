@@ -22,3 +22,8 @@ buttonName.addEventListener("click", ()=>{
         text.style.color = bgColorSelection
     }
 })
+
+const links = document.querySelectorAll("a")
+for(let link of links){
+    link.style.color = "#750ff7"
+}
