@@ -12,4 +12,6 @@ document
     let thePinkBg = document.querySelectorAll(".pink-bg");
     thePinkText.forEach((element) => (element.style.color = colore));
     thePinkBg.forEach((element) => (element.style.backgroundColor = colore));
+    let theLink = document.querySelectorAll("a");
+    theLink.forEach((element) => (element.style.color = colore));
   });
