@@ -11,6 +11,10 @@ const buttonChangeNameAndColor = document.querySelector(
 buttonChangeNameAndColor.addEventListener("click", () => {
   const name = document.getElementById("firstname");
 
+  let color = prompt("Hey ! envoie une couleur en hexadecimal !");
+  let description = document.querySelector("article section.description");
+  description.style.backgroundColor = color;
+
   let firstname = prompt("Hey ! envoie ton prénom !");
 
   name.style.color = "white";
