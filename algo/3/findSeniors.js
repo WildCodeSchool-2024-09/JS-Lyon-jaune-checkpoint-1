@@ -26,7 +26,9 @@ const persons = [
 */
 
 function findSeniors(persons) {
-  // Your code here !
+  if (persons(experience) > 5 && (jobs) === "web dev") return []
+} else if {
+
 }
 
 module.exports = findSeniors;
