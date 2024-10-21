@@ -11,4 +11,5 @@ function thirdAngle(a, b) {
 }
 console.log(thirdAngle(90, 60));
 
+
 module.exports = thirdAngle;
