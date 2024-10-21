@@ -137,3 +137,11 @@ p {
 .purple-text {
 	color: var(--purple);
 }
+
+button {
+	text-align: center;
+	background-color: pink;
+	color : grey;
+
+	border-color: grey;
+}
