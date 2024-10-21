@@ -13,6 +13,7 @@
 
   article.skills > section {
     justify-content: center;
+    flex-direction: row-reverse;
   }
 
   article.skills > h2 {
