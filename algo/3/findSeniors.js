@@ -26,7 +26,17 @@ const persons = [
 */
 
 function findSeniors(persons) {
-  // Your code here !
+
+  persons.forEach(element => {
+    if ((element.experience >= 5) && (element.job === 'web dev')) {
+      const firstArray = persons.map((element) => name.element);
+    }
+    else if (element.experience >= 5) && (element.job === 'data analyst') {
+      const secondArray = persons.map((element) => name.element);
+    }
+  });
+
+  const finalArray = [firstArray; secondArray]; 
 }
 
 module.exports = findSeniors;
