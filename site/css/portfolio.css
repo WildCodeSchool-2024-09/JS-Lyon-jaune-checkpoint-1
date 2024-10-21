@@ -99,6 +99,10 @@ p {
   color: var(--purple);
 }
 
+.disabled {
+  opacity: 0.33;
+}
+
 .box {
   width: 25%;
   padding: calc(var(--gutter) * 2);
@@ -131,5 +135,8 @@ p {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
+  }
+  .projects {
+    display: flex;
   }
 }
