@@ -9,4 +9,9 @@ button.addEventListener("click", () => {
 	const buttonModify = prompt("Enter your name");
 	document.getElementById("firstname").innerText = buttonModify;
 	document.getElementById("firstname").style.color = "white";
+
+	const colorBg = prompt("Enter your color");
+
+	document.querySelector(".description pink-bg").style.backgroundColor =
+		colorBg;
 });
