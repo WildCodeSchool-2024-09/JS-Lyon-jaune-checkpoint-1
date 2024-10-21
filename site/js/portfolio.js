@@ -8,6 +8,8 @@ avatar.addEventListener("click", function () {
 const button = document.querySelector("button");
 const firstName = document.getElementById("firstname");
 const backgroundElements = document.getElementById("presentation");
+const pink = document.querySelector(".pink-text");
+const pinkFooter = document.querySelector(".pink-bg");
 
 button.addEventListener("click", function () {
 	let name = prompt("What's your name?");
@@ -16,4 +18,6 @@ button.addEventListener("click", function () {
 	firstName.style.color = "white";
 	firstName.innerHTML = name;
 	backgroundElements.style.backgroundColor = color;
+	pink.style.backgroundColor = color;
+	pinkFooter.style.backgroundColor = color;
 });
