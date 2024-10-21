@@ -27,3 +27,24 @@ const links = document.querySelectorAll("a")
 for(let link of links){
     link.style.color = "#750ff7"
 }
+
+const listTools = document.getElementById("front-dev-tools")
+const toolsItems = listTools.getElementsByTagName("li")
+const modifyButton = document.getElementById("modify-button")
+
+modifyButton.addEventListener("click", () => {
+    toolsItems[0].innerHTML = "VSCode"
+    toolsItems[1].innerHTML = "Gihub"
+    toolsItems[2].innerHTML = "Terminal"
+})
+
+const buttonAdd = document.getElementById("add-button")
+const listToolsBack = document.getElementById("back-dev-tools")
+
+
+buttonAdd.addEventListener("click", () => {
+    const addText = document.getElementById("add-tool").value
+    const li = document.createElement("li")
+    li.innerText = addText
+    listToolsBack.appendChild(li)
+})
