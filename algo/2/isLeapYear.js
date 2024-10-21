@@ -1,5 +1,6 @@
 /*
-Écris une fonction qui peut déterminer si une année est une année bissextile. Elle doit renvoyer `true` si c'est le cas, et `false` sinon.
+Écris une fonction qui peut déterminer si une année est une année bissextile. Elle doit renvoyer `true` 
+si c'est le cas, et `false` sinon.
 Rappel : Une année bissextile vérifie **une** de ces règles :
 - Elle est divisible par 4, sans être divisible par 100
 - Elle est divisible par 400
