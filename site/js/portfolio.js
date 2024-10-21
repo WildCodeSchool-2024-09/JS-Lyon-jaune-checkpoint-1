@@ -11,9 +11,17 @@ const buttonChangeNameAndColor = document.querySelector(
 buttonChangeNameAndColor.addEventListener("click", () => {
   const name = document.getElementById("firstname");
 
-  let color = prompt("Hey ! envoie une couleur en hexadecimal !");
-  let description = document.querySelector("article section.description");
-  description.style.backgroundColor = color;
+  let colorPrompt = prompt("Hey ! envoie une couleur en hexadecimal !");
+  let bgPinkElements = document.querySelectorAll(".pink-bg");
+
+  for (const bgPinkElement of bgPinkElements) {
+    bgPinkElement.style.backgroundColor = colorPrompt;
+  }
+
+  let textPinkElements = document.querySelectorAll(".pink-text");
+  for (const textPinkElement of textPinkElements) {
+    textPinkElement.style.color = colorPrompt;
+  }
 
   let firstname = prompt("Hey ! envoie ton prénom !");
 
