@@ -12,7 +12,6 @@
   }
 
   article.skills > section {
-    display: flex;
     justify-content: center;
   }
 
@@ -26,6 +25,14 @@
   .desktop img {
     display: none;
   }
+
+  article.skills > section {
+    flex-direction: column-reverse;
+  }
+}
+
+article.skills > section {
+  display: flex;
 }
 
 :root {
