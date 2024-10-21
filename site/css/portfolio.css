@@ -10,6 +10,16 @@
     align-items: center; */
     text-align: center;
   }
+
+  article.skills > section {
+    display: flex;
+    justify-content: center;
+  }
+
+  article.skills > h2 {
+    margin-top: 32px;
+    margin-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 700px) {
