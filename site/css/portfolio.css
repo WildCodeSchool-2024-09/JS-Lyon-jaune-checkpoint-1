@@ -13,6 +13,7 @@
 
 img {
   max-width: 100%;
+  display: inline;
 }
 
 h1 {
@@ -26,7 +27,13 @@ p {
 .menu {
   display: flex;
   margin-bottom: var(--gutter);
+  
+  }
+.menu li {
+  display: flex;
+  justify-content: flex-en;
 }
+
 
 .desktop {
   margin: 0;
@@ -107,4 +114,9 @@ p {
 
 .purple-text {
   color: var(--purple);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

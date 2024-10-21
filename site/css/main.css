@@ -46,6 +46,7 @@ a {
   padding: var(--gutter);
   text-decoration: none;
   color: black;
+  
 }
 
 button:focus {
